@@ -1,5 +1,5 @@
 {
-    "name": "cache/apcu-adapter",
+    "name": "Travelopia/apcu-adapter",
     "description": "A PSR-6 cache implementation using apcu. This implementation supports tags",
     "license": "MIT",
     "type": "library",
@@ -24,7 +24,7 @@
     "require": {
         "php": ">=7.4",
         "cache/adapter-common": "^1.0",
-        "psr/cache": "^1.0 || ^2.0",
+        "psr/cache": "^1.0 || ^2.0 || ^3.0",
         "psr/simple-cache": "^1.0"
     },
     "require-dev": {
